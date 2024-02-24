@@ -12,15 +12,20 @@ main {
   padding: 36px;
 }
 
+
+
+
 .header {
   display: flex;
   align-items: center;
-  height: 65px;
+  justify-content: start;
+  height: 75px;
   width: 100%;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
   padding: 20px;
 }
+
 
 .header--image {
   height: 100%;
@@ -114,16 +119,41 @@ main {
   top: 0;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 4000px) {
   /* For desktop: */
   .header--title {
-    font-size: 0.85rem;
+    font-size: 12px;
     margin-right: auto;
   }
   
   .header--project {
-    font-size: 0.65rem;
+    font-size: 12px;
     font-weight: 500;
+  }
+  
+}
+
+
+@media only screen and (max-width: 350px) {
+  /* For phone: */
+
+  
+
+  .header{
+    width: 100%;    
+    margin-right: 0px;
+    
+  }
+
+  .header--title {
+    font-size: 10px;
+    /* margin-right: auto; */
+  }
+  
+  .header--project {
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-right: auto; */
   }
   
 }
