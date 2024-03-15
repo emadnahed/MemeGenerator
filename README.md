@@ -1,19 +1,17 @@
 # Meme Generator Application
 
-This is an application which helps to generate an image related to the memes and help you to write a
+This is an application that helps generate images related to memes and assists in writing text overlays on them.
 
-## Table of contents
+## Table of Contents
 
-* Learning React Essentials
-
-  * [Overview](#overview)
-  * [Key Concepts](#key-concepts "check this")
-  * [Screenshot](#screenshot)
-  * [Built with:](#built-with:)
-  * [Getting Started](#Getting-started)
-  * [What I learned](#what-I-learned)
-  * [Useful resources](#useful-resources)
-
+- [Learning React Essentials](#learning-react-essentials)
+  - [Overview](#overview)
+  - [Key Concepts](#key-concepts)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [Getting Started](#getting-started)
+  - [What I Learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
 
 # Learning React Essentials
 
@@ -24,33 +22,31 @@ Welcome to our project! In this repository, we focus on learning fundamental con
 ## Key Concepts
 
 1. **`map` Function:**
-   * The `map` function in JavaScript is utilized for iterating over arrays and performing actions on each item.
-   * In React, we leverage the `map` function to dynamically render lists of components.
-   * Learning to use `map` effectively enhances understanding of dynamic data rendering and functional programming principles like immutability and pure functions.
+   - The `map` function in JavaScript is utilized for iterating over arrays and performing actions on each item.
+   - In React, we leverage the `map` function to dynamically render lists of components.
+   - Learning to use `map` effectively enhances understanding of dynamic data rendering and functional programming principles like immutability and pure functions.
+
 2. **API Calls:**
-   * Modern web applications often interact with external APIs to fetch or send data.
-   * Learning how to make API calls in React involves handling asynchronous operations, such as fetching data from a server.
-   * Key concepts include using browser APIs like `fetch` or libraries like Axios, error handling, and data fetching patterns (e.g., RESTful APIs).
-   * Skills acquired include managing loading and error states, as well as processing data received from the API.
+   - Modern web applications often interact with external APIs to fetch or send data.
+   - Learning how to make API calls in React involves handling asynchronous operations, such as fetching data from a server.
+   - Key concepts include using browser APIs like `fetch` or libraries like Axios, error handling, and data fetching patterns (e.g., RESTful APIs).
+
 3. **Component-based Architecture:**
-   * React emphasizes composing UIs using reusable components.
-   * Understanding component-based architecture involves breaking down applications into smaller, manageable pieces.
-   * Essential concepts include props, state management, and creating reusable and composable components.
-   * Additionally, familiarity with component lifecycle, context API, and hooks (e.g., introduced in React 16.8) is crucial for building scalable and maintainable applications.
+   - React emphasizes composing UIs using reusable components.
+   - Understanding component-based architecture involves breaking down applications into smaller, manageable pieces.
+   - Essential concepts include props, state management, and creating reusable and composable components.
 
 ## Screenshot
 
-![1710531838429](image/README/1710531838429.png)
+![image](https://github.com/emadnahed/MemeGenerator/assets/81587039/01157c0a-3f25-47c0-adb1-4eea805dfdaf)
 
----
+## Built with
 
-## Built with:
-
-* Semantic HTML5 markup
-* Fetch API call
-* useEffect hook
-* Flexbox
-* React Components
+- Semantic HTML5 markup
+- Fetch API call
+- useEffect hook
+- Flexbox
+- React Components
 
 ## Getting Started
 
@@ -64,7 +60,7 @@ To start learning React essentials with our project, follow these steps:
 
 Happy coding! 🚀
 
-## What I learned {#what-i-learned}
+## What I Learned
 
 During the development of this application, I have gained a deeper understanding of the following concepts:
 
@@ -75,8 +71,8 @@ During the development of this application, I have gained a deeper understanding
 
 Overall, I have gained a lot of experience and knowledge in CSS, JavaScript, and React through the development of this application. I have learned how to apply various CSS techniques to create a flexible and responsive layout, and how to use React to create reusable and modular components. I am excited to continue building and learning in this field!
 
-## Useful resources
+## Useful Resources
 
-- [JavaScript Map](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/) - The map method in JavaScript is a higher-order function commonly used in React.js to transform arrays of elements into new arrays. It's often utilized when rendering lists of data or when you need to modify the elements in an array.
-- [API call](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) - API call refers to the process of sending requests to external servers or services to fetch or manipulate data.
-- [React&#39;s Components based architecture](https://www.freecodecamp.org/news/how-to-use-react-components/)  - React's component-based architecture allows developers to create reusable and modular UI elements, making it easier to build complex user interfaces by breaking them down into smaller, manageable parts.
+- [JavaScript Map](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/): The map method in JavaScript is a higher-order function commonly used in React.js to transform arrays of elements into new arrays. It's often utilized when rendering lists of data or when you need to modify the elements in an array.
+- [API call](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API): API call refers to the process of sending requests to external servers or services to fetch or manipulate data.
+- [React's Components based architecture](https://www.freecodecamp.org/news/how-to-use-react-components/): React's component-based architecture allows developers to create reusable and modular UI elements, making it easier to build complex user interfaces by breaking them down into smaller, manageable parts.
